@@ -29,5 +29,5 @@ height= float (input("enter height in inches:"))
 
 
 bmi = calculate_BMI(weight, height)
-print(f"Your BMI is: {bmi:.2f}")
+
 print("you are (category)")
