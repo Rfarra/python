@@ -15,9 +15,9 @@ def main():
      try:
         index = int(input("Enter the index of the artist to replace: "))
         new_artist_name = input("Enter the new artist name: ")
-        top_artists[index] = new_artist_name
+        top_artists = new_artist_name
         print("Updated list:", top_artists)
-    except (ValueError, IndexError):
+    
     print("An input error occurred.")
 
 
