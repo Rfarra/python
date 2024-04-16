@@ -1,12 +1,15 @@
-# Simple Python program to calculate the square of a number
+class InvalidInputError(Exception):
+    # Custom exception implementation
 
+def main():
+    while True:
+        try:
+            user_input=input("please enter a number:")
+        except InvalidInputError:
+           InvalidInputError as e:
+        else:
+             print("Valid input.")
+        finally:
+           (end of program))
 
-def square_number():
- try:
-    number = input("Enter a number to square: ")
-    squared_number = int(number) ** 2
-    print(f"The square of {number} is {squared_number}.")
- except: 
-     print("Error:Please enter valid integer")
-
-square_number()
+    main()
